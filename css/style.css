@@ -1,3 +1,31 @@
+:root{
+    --primary: #4e73df;
+    --success: #1cc88a;
+    --warning: #f6c23e;
+    --info: #36b9cc;
+    --text: #393E46;
+    --gray: #dddfeb;
+}
+
 body{
     font-family: "Prompt", sans-serif;
+}
+.text-gray-300{
+    color: var(--gray) !important;
+}
+.text-primary{
+    color: var(--text) !important;
+}
+
+.border-left-primary{
+    border-left: .25rem solid var(--primary) !important;
+}
+.border-left-success{
+    border-left: .25rem solid var(--success) !important;
+}
+.border-left-warning{
+    border-left: .25rem solid var(--warning) !important;
+}
+.border-left-info{
+    border-left: .25rem solid var(--info) !important;
 }
