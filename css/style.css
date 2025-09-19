@@ -29,3 +29,7 @@ body{
 .border-left-info{
     border-left: .25rem solid var(--info) !important;
 }
+
+.active{
+    color: var(--gray) ;
+}
