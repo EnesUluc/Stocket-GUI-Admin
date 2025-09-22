@@ -64,3 +64,18 @@ body{
 .active{
     color: var(--gray) ;
 }
+
+.profile{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fa-edit{
+    text-decoration: none;
+    color: var(--text) !important;
+    position: absolute;
+    top:   80%;
+    right: 15%;
+    margin-bottom: .5rem;;
+}
